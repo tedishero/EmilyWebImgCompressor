@@ -62,7 +62,7 @@
 
         static void Main(string[] args)
         {
-            var projectFolder = @"C:\Users\v-robesu\Source\Repo\EmilyChenWeb\src\assets\projects";
+            var projectFolder = @"C:\Users\Rob\Source\Repos\EmilyChenProfileWeb\src\assets\projects";
             var projectFolders = Directory.GetDirectories(projectFolder);
             foreach (var folder in projectFolders)
             {
